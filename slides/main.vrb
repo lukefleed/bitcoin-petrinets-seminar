@@ -1,0 +1,29 @@
+\frametitle{}
+\footnotesize
+    \begin{algorithm}[H]
+        \footnotesize
+        \caption{Compute Entities from the Addresses Petri Net}\label{alg:entities}
+        \begin{algorithmic}[1]
+            \State $T^* \gets T$ \Comment{Set of unexplored transactions}
+            \State $E \gets \emptyset$ \Comment{Set of entities}
+            \While{$T^* \neq \emptyset$}
+            \State Select and remove a transaction $t$ from $T^*$
+            \State $e \gets \emptyset$ \Comment{Initialize new entity}
+            \ForAll{$p_i$ such that $\mathbf{PreA}(p_i,t)=1$}
+            \State $e \gets e \cup \{p_i\}$
+            \EndFor
+            \State $e^* \gets e$ \Comment{Set of unexplored places within $e$}
+            \While{$e^* \neq \emptyset$}
+            \State Select a place $p$ from $e^*$
+            \ForAll{transactions $t'$ with $\mathbf{PreA}(p,t')=1$}
+            \ForAll{$p_h$ such that $\mathbf{PreA}(p_h,t')=1$}
+            \State $e \gets e \cup \{p_h\}$, $e^* \gets e^* \cup \{p_h\}$
+            \EndFor
+            \State Remove $t'$ from $T^*$
+            \EndFor
+            \State Remove $p$ from $e^*$
+            \EndWhile
+            \State $E \gets E \cup \{e\}$
+            \EndWhile
+        \end{algorithmic}
+    \end{algorithm}

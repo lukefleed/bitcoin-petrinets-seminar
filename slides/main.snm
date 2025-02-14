@@ -1,2 +1,16 @@
 \beamer@slide {sec:Intro}{3}
+\beamer@slide {fig:ReteEsempio_1}{5}
 \beamer@slide {fig:ReteEsempio_1pt}{12}
+\beamer@slide {Pre-esempio1}{14}
+\beamer@slide {Post-esempio1}{15}
+\beamer@slide {alg:entities}{18}
+\beamer@slide {fig_preA_CCDF}{21}
+\beamer@slide {fig_postA_CCDF}{21}
+\beamer@slide {tab_imbalance_10addressPreA}{22}
+\beamer@slide {fig_chains_CCDF}{23}
+\beamer@slide {fig_transA_CCDF}{24}
+\beamer@slide {fig_entity_CCDF}{25}
+\beamer@slide {fig_preE_CCDF}{26}
+\beamer@slide {fig_postE_CCDF}{26}
+\beamer@slide {tab_10Entity_1}{27}
+\beamer@slide {fig_transE_CCDF}{28}
