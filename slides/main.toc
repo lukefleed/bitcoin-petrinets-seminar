@@ -1,5 +1,5 @@
 \beamer@sectionintoc {1}{Introduction: A Petri Net Model for Blockchain Analysis}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Bitcoin Blockchain}{5}{0}{1}
+\beamer@subsectionintoc {1}{1}{Bitcoin Blockchain}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Petri Nets: an overview}{7}{0}{1}
 \beamer@sectionintoc {2}{Address Petri Net}{10}{0}{2}
 \beamer@subsectionintoc {2}{1}{Constructing the Incidence Matrices}{11}{0}{2}

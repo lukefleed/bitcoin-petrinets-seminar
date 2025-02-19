@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.19)  14 FEB 2025 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.19)  19 FEB 2025 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,7 +779,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] [4
 
 ]
-<ReteEsempio_1.pdf, id=269, 758.11234pt x 354.12299pt>
+<ReteEsempio_1.pdf, id=270, 758.11234pt x 354.12299pt>
 File: ReteEsempio_1.pdf Graphic file (type pdf)
 <use ReteEsempio_1.pdf>
 Package pdftex.def Info: ReteEsempio_1.pdf  used on input line 114.
@@ -791,37 +791,37 @@ Package pdftex.def Info: ReteEsempio_1.pdf  used on input line 114.
 ] [7
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 187.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 179.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 187.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 179.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 187.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 179.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [8
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 205.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 195.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 205.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 195.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 205.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 195.
  [9
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 235.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 235.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 235.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 235.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 225.
  [10
 
 ] [11
@@ -830,10 +830,10 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
 <ReteEsempio_1pt.pdf, id=619, 546.3612pt x 299.19778pt>
 File: ReteEsempio_1pt.pdf Graphic file (type pdf)
 <use ReteEsempio_1pt.pdf>
-Package pdftex.def Info: ReteEsempio_1pt.pdf  used on input line 288.
+Package pdftex.def Info: ReteEsempio_1pt.pdf  used on input line 278.
 (pdftex.def)             Requested size: 239.60567pt x 131.20914pt.
 
-Overfull \vbox (13.89471pt too high) detected at line 288
+Overfull \vbox (13.89471pt too high) detected at line 278
  []
 
 [12
@@ -852,7 +852,7 @@ Overfull \vbox (13.89471pt too high) detected at line 288
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (12.70326pt too high) detected at line 420
+Overfull \vbox (12.70326pt too high) detected at line 410
  []
 
 [18
@@ -863,7 +863,7 @@ Overfull \vbox (12.70326pt too high) detected at line 420
 <diagram.pdf, id=916, 1057.9525pt x 398.48875pt>
 File: diagram.pdf Graphic file (type pdf)
 <use diagram.pdf>
-Package pdftex.def Info: diagram.pdf  used on input line 490.
+Package pdftex.def Info: diagram.pdf  used on input line 451.
 (pdftex.def)             Requested size: 342.2953pt x 128.92966pt.
  [20
 
@@ -871,12 +871,12 @@ Package pdftex.def Info: diagram.pdf  used on input line 490.
 <PreA.pdf, id=956, 713.66624pt x 551.05875pt>
 File: PreA.pdf Graphic file (type pdf)
 <use PreA.pdf>
-Package pdftex.def Info: PreA.pdf  used on input line 519.
+Package pdftex.def Info: PreA.pdf  used on input line 480.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
 <PostA.pdf, id=957, 713.66624pt x 551.05875pt>
 File: PostA.pdf Graphic file (type pdf)
 <use PostA.pdf>
-Package pdftex.def Info: PostA.pdf  used on input line 519.
+Package pdftex.def Info: PostA.pdf  used on input line 480.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
  [21
 
@@ -889,7 +889,7 @@ pdfTeX warning: pdflatex (file ./PostA.pdf): PDF inclusion: multiple pdfs with p
 <Chains.pdf, id=1068, 713.66624pt x 551.05875pt>
 File: Chains.pdf Graphic file (type pdf)
 <use Chains.pdf>
-Package pdftex.def Info: Chains.pdf  used on input line 567.
+Package pdftex.def Info: Chains.pdf  used on input line 528.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [23
 
@@ -897,7 +897,7 @@ Package pdftex.def Info: Chains.pdf  used on input line 567.
 <groupTA.pdf, id=1105, 713.66624pt x 551.05875pt>
 File: groupTA.pdf Graphic file (type pdf)
 <use groupTA.pdf>
-Package pdftex.def Info: groupTA.pdf  used on input line 582.
+Package pdftex.def Info: groupTA.pdf  used on input line 543.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [24
 
@@ -905,10 +905,10 @@ Package pdftex.def Info: groupTA.pdf  used on input line 582.
 <Entity_size.pdf, id=1141, 713.66624pt x 551.05875pt>
 File: Entity_size.pdf Graphic file (type pdf)
 <use Entity_size.pdf>
-Package pdftex.def Info: Entity_size.pdf  used on input line 600.
+Package pdftex.def Info: Entity_size.pdf  used on input line 561.
 (pdftex.def)             Requested size: 205.37926pt x 158.58371pt.
 
-Overfull \vbox (31.93791pt too high) detected at line 600
+Overfull \vbox (31.93791pt too high) detected at line 561
  []
 
 [25
@@ -917,12 +917,12 @@ Overfull \vbox (31.93791pt too high) detected at line 600
 <PreE.pdf, id=1179, 713.66624pt x 551.05875pt>
 File: PreE.pdf Graphic file (type pdf)
 <use PreE.pdf>
-Package pdftex.def Info: PreE.pdf  used on input line 622.
+Package pdftex.def Info: PreE.pdf  used on input line 583.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
 <PostE.pdf, id=1180, 713.66624pt x 551.05875pt>
 File: PostE.pdf Graphic file (type pdf)
 <use PostE.pdf>
-Package pdftex.def Info: PostE.pdf  used on input line 622.
+Package pdftex.def Info: PostE.pdf  used on input line 583.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
  [26
 
@@ -935,7 +935,7 @@ pdfTeX warning: pdflatex (file ./PostE.pdf): PDF inclusion: multiple pdfs with p
 <groupTE.pdf, id=1263, 713.66624pt x 551.05875pt>
 File: groupTE.pdf Graphic file (type pdf)
 <use groupTE.pdf>
-Package pdftex.def Info: groupTE.pdf  used on input line 661.
+Package pdftex.def Info: groupTE.pdf  used on input line 622.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [28
 
@@ -957,18 +957,18 @@ Package pdftex.def Info: groupTE.pdf  used on input line 661.
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 790EC7D15A6C9032BEDF884B3FDBB69F;2092.
+(rerunfilecheck)             Checksum: FFBDB46E1D56196388397881A2103874;2092.
  ) 
 Here is how much of TeX's memory you used:
  26317 strings out of 478287
  531369 string characters out of 5849289
- 775605 words of memory out of 5000000
+ 775623 words of memory out of 5000000
  43878 multiletter control sequences out of 15000+600000
  484834 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,469b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (31 pages, 716270 bytes).
+Output written on main.pdf (31 pages, 716275 bytes).
 PDF statistics:
  1616 PDF objects out of 1728 (max. 8388607)
  1241 compressed objects within 13 object streams

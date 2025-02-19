@@ -77,6 +77,7 @@
     \end{columns}
 \end{frame}
 
+\subsection{Bitcoin Blockchain}
 \begin{frame}{Bitcoin Blockchain: Architecture \& Transactions}
     \footnotesize
     \vspace{-0.2cm}
@@ -105,7 +106,6 @@
     \end{block}
 \end{frame}
 
-\subsection{Bitcoin Blockchain}
 \begin{frame}{Bitcoin Blockchain: Architecture \& Transactions}
     \centering
     \label{fig:ReteEsempio_1}
@@ -134,14 +134,6 @@
             \item \textbf{Incentives:} The first miner to solve the puzzle receives a block reward
         \end{itemize}
     \end{block}
-
-    % \begin{block}{Network Dynamics}
-    %     \begin{itemize}
-    %         \item \textbf{Consensus Mechanism:} Full nodes verify blocks and the network adopts the longest chain.
-    %         \item \textbf{Difficulty Adjustment:} The mining challenge is periodically adjusted to maintain an average of one new block every ten minutes.
-    %         \item \textbf{Mining Pools:} Miners often collaborate in pools to optimize their chances of winning the reward.
-    %     \end{itemize}
-    % \end{block}
 \end{frame}
 
 \subsection{Petri Nets: an overview}
@@ -186,9 +178,7 @@
 
 \end{frame}
 
-\begin{frame}
-    \frametitle{Petri Nets: Algebraic Formalism \& Markings}
-
+\begin{frame}{Petri Nets: Algebraic Formalism \& Markings}
     \begin{block}{Markings \& Firing Rule}
         \begin{itemize}
             \item A \textbf{marking} \(M\) is a vector assigning tokens to places, thus representing the system state.
@@ -418,35 +408,6 @@
         \end{algorithmic}
     \end{algorithm}
 \end{frame}
-
-% \begin{frame}{Entities Petri Net: Incidence Matrices \& Example}
-%     \footnotesize
-%     \begin{block}{Building the Entities Petri Net}
-%         \begin{itemize}
-%             \item Once \(E\) is determined, each entity \(e\) is mapped to a place \(p\epsilon\) in \(P_{\epsilon}\).
-%             \item To compute the incidence matrices \(\mathbf{PreE}\) and \(\mathbf{PostE}\):
-%                   \begin{itemize}
-%                       \item Extract the rows from \(\mathbf{PreA}\) and \(\mathbf{PostA}\) corresponding to all places \(p\alpha \in e\).
-%                       \item Sum these rows to obtain one row per entity.
-%                   \end{itemize}
-%         \end{itemize}
-%     \end{block}
-
-%     \begin{block}{Example}
-%         \begin{itemize}
-%             \item Consider the simplified transaction chains (see Fig.~\ref{fig:ReteEsempio_1pt}).
-%             \item The algorithm identifies, for instance:
-%                   \begin{itemize}
-%                       \item \(e_1 = \{p\alpha_1\}\)
-%                       \item \(e_2 = \{p\alpha_2,\, p\alpha_3,\, p\alpha_6\}\)
-%                       \item \(e_3 = \{p\alpha_4\}\)
-%                       \item \(e_4 = \{p\alpha_5\}\)
-%                   \end{itemize}
-%             \item Figures~\ref{Pre-E-esempio1} and \ref{Post-E-esempio1} show the resulting \(\mathbf{PreE}\) and \(\mathbf{PostE}\) matrices.
-%             \item Fig.~\ref{fig:reteesemopioept} provides the graphical representation of the Entities Petri Net.
-%         \end{itemize}
-%     \end{block}
-% \end{frame}
 
 \begin{frame}{Entities Petri Net: Incidence Matrices and Aggregation}
     \footnotesize
