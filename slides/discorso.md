@@ -61,8 +61,6 @@ Infine, il concetto di **marking** è fondamentale per rappresentare lo stato co
 
 Questa combinazione di rappresentazione grafica e formale, che integra la visione intuitiva con una descrizione algebrica rigorosa, rende le Petri Nets uno strumento molto potente per analizzare sistemi complessi, come quello della Blockchain.
 
-Di seguito un possibile discorso, suddiviso per slide, della durata complessiva di circa 1 minuto e 30 secondi per slide, che spiega in modo approfondito il modello delle Addresses Petri Net e l’algoritmo per il raggruppamento in Entities Petri Net.
-
 ## Slide 8
 
 L’idea alla base di questo modello è quella di mappare in maniera naturale la struttura della Blockchain, dove le transazioni spostano bitcoin tra indirizzi, su un formalismo delle Petri Nets. In questo contesto definiamo due insiemi fondamentali: da un lato abbiamo l’insieme $\mathcal{A} = \{\alpha*1, \alpha_2, \dots, \alpha_m\}$ che raccoglie tutti gli indirizzi registrati nella Blockchain – siano essi presenti come input o output – e dall’altro l’insieme $\Theta = \{\theta_1, \theta_2, \dots, \theta_n\}$ delle transazioni validate.
@@ -126,10 +124,6 @@ Ad esempio, dalla prima riga si nota che l’indirizzo $p\alpha_1$ riceve un tok
 Analizzando insieme le due matrici, possiamo ricavare numerose statistiche sul comportamento degli indirizzi, come il numero di UTXO o la frequenza delle transazioni in ingresso e in uscita.
 Questo approccio consente, in maniera integrata, di rappresentare sia la struttura che la dinamica della Blockchain.
 
-Di seguito un possibile discorso, suddiviso per slide, della durata di circa 1 minuto e 30 secondi per slide, che spiega in modo dettagliato la sezione relativa alle Entities Petri Net e l’algoritmo ad esse associato.
-
----
-
 ## Slide 14
 
 Passiamo ora alla seconda parte del lavoro, concentrandoci sulle Entities Petri Net. Come ben sappiamo, molti utenti di Bitcoin possiedono più di un indirizzo, utilizzandoli non solo per facilitare gli scambi, ma anche per migliorare il proprio livello di anonimato. In questo contesto, definiamo un’**entity** come l’insieme di indirizzi controllati dalla stessa persona, organizzazione o gruppo. La chiave qui è che tutti gli indirizzi che compaiono nella sezione di input di una singola transazione devono necessariamente appartenere alla stessa entity, perché il trasferimento dei fondi richiede il possesso di tutte le relative chiavi private.
@@ -143,10 +137,6 @@ Procediamo ora alla definizione formale e alla mappatura degli indirizzi nelle e
 In questa slide definiamo formalmente il passaggio dal livello degli indirizzi a quello delle entity. Partiamo definendo l’insieme degli indirizzi, $\mathcal{A}=\{\alpha_1, \alpha_2, \dots, \alpha_m\}$, e l’insieme delle transazioni, $\Theta=\{\theta_1, \theta_2, \dots, \theta_n\}$. Nel nostro modello di Addresses Petri Net, ogni indirizzo è rappresentato da un place, indicato come $p\alpha$, e ogni transazione da una transition, il tutto codificato tramite le matrici $\mathbf{PreA}$ e $\mathbf{PostA}$.
 
 Per raggruppare gli indirizzi in entity, definiamo un’**entity** $\epsilon$ come un sottoinsieme degli indirizzi, ossia $\epsilon\subseteq \mathcal{A}$. Raggruppiamo tutte queste entity nell’insieme $E=\{\epsilon*1, \epsilon_2, \dots, \epsilon_k\}$. Successivamente, nella Entities Petri Net $N*{\epsilon}=(P\_{\epsilon}, T, \mathbf{PreE}, \mathbf{PostE})$ ogni place $p\epsilon$ corrisponde ad una entity. In questo modo, mantenendo invariato l’insieme delle transazioni $T$ (lo stesso che utilizziamo nella Addresses Petri Net), possiamo rielaborare le matrici di incidenza aggregando i dati degli indirizzi che compongono ciascuna entity.
-
-Questa mappatura è fondamentale perché ci permette di analizzare il comportamento degli attori reali, semplificando la complessità derivante dalla presenza di numerosi indirizzi, e rendendo più evidente il flusso di bitcoin tra le varie entity.
-
-Adesso passiamo alla parte operativa, illustrando l’algoritmo che ci consente di determinare automaticamente quali indirizzi appartengono alla stessa entity.
 
 ## Slide 16
 
@@ -207,8 +197,6 @@ Utilizzando questo criterio, il modello è stato in grado di identificare automa
 Nell’ultima slide vengono presentati i risultati relativi ai modelli di transazioni ripetute. Gli autori hanno esaminato quante volte gli utenti eseguono transazioni con insiemi identici di indirizzi in input e output. Nel modello delle Petri Net, ciò si traduce in transitions con configurazioni identiche nei pre- e post-arcs.
 
 I dati evidenziano che circa l’11% delle transazioni sono ripetizioni di altre, ovvero transazioni che coinvolgono esattamente lo stesso gruppo di indirizzi per l’input e per l’output. Questo fenomeno è indicativo di flussi di bitcoin costanti tra specifici gruppi di indirizzi, probabilmente legati a comportamenti abituali o a particolari strategie di trasferimento. La figura a destra della slide, che mostra la CCDF delle dimensioni dei gruppi di transazioni ripetute, illustra chiaramente come queste ripetizioni varino in grande misura, confermando la presenza di flussi stabili e significativi all’interno della rete.
-
-In sintesi, questi risultati dimostrano come il formalismo delle Petri Net consenta non solo di rappresentare la struttura della Blockchain, ma anche di estrarre informazioni molto dettagliate sulle pratiche degli utenti, dalla frequenza delle transazioni alla gestione degli indirizzi disposable, fino all’identificazione di trasferimenti ripetuti.
 
 ## Slide 23
 
