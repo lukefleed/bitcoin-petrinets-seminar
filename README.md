@@ -2,7 +2,7 @@
 
 Seminar based on `[1]` for the course of Computational Models for Complex Systems at the University of Pisa.
 
-**PDF of the slides:** [view](slides/main.pdf)
+**PDF of the slides:** [view](slides/SlidesBTC_PN.pdf) / [download](https://github.com/lukefleed/bitcoin-petrinets-seminar/raw/main/slides/SlidesBTC_PN.pdf)
 
 ---
 
