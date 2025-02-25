@@ -2,7 +2,7 @@
 
 Seminar based on `[1]` for the course of Computational Models for Complex Systems at the University of Pisa.
 
-**PDF of the slides:** [view](../main.pdf)
+**PDF of the slides:** [view](slides/main.pdf)
 
 ---
 
