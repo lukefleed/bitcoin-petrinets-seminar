@@ -278,23 +278,6 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Address Petri Nets: Incidence Matrices and Analysis}
-    \begin{block}{Incidence Matrices and Analysis}
-        \begin{itemize}
-            \item \textbf{Pre-incidence matrix \(\mathbf{PreA}\):} Captures the number of times an address appears as an input.
-            \item \textbf{Post-incidence matrix \(\mathbf{PostA}\):} Captures the outputs associated with each transaction.
-            \item By computing the difference (\(\mathbf{PostA} - \mathbf{PreA}\)) for each row, one can:
-                  \begin{itemize}
-                      \item Determine the number of UTXOs per address.
-                      \item Infer whether an address balance is null (zero tokens).
-                  \end{itemize}
-            \item Transactions sharing identical input and output sets may be merged into one transition with a firing clock, aiding dynamic analyses.
-        \end{itemize}
-    \end{block}
-
-\end{frame}
-
-\begin{frame}
     \frametitle{Pre-incidence matrix of the simplified transaction}
     \begin{figure}
         \centering{
@@ -333,8 +316,25 @@
     \end{figure}
 \end{frame}
 
+\begin{frame}
+    \frametitle{Address Petri Nets: Incidence Matrices and Analysis}
+    \begin{block}{Incidence Matrices and Analysis}
+        \begin{itemize}
+            \item \textbf{Pre-incidence matrix \(\mathbf{PreA}\):} Captures the number of times an address appears as an input.
+            \item \textbf{Post-incidence matrix \(\mathbf{PostA}\):} Captures the outputs associated with each transaction.
+            \item By computing the difference (\(\mathbf{PostA} - \mathbf{PreA}\)) for each row, one can:
+                  \begin{itemize}
+                      \item Determine the number of UTXOs per address.
+                      \item Infer whether an address balance is null (zero tokens).
+                  \end{itemize}
+            \item Transactions sharing identical input and output sets may be merged into one transition with a firing clock, aiding dynamic analyses.
+        \end{itemize}
+    \end{block}
 
-\subsection{Entities Petri Net and algorithm to manage them}
+\end{frame}
+
+
+\section{Entities Petri Net and algorithm to manage them}
 
 \begin{frame}{Entities Petri Net: Introduction}
     \footnotesize
@@ -425,14 +425,6 @@
             \item This aggregation captures the cumulative input and output interactions of all addresses within the entity.
         \end{itemize}
     \end{block}
-
-    % \begin{block}{Key Benefits}
-    %     \begin{itemize}
-    %         \item \textbf{Simplification:} Reduces complexity by clustering multiple addresses under a single entity.
-    %         \item \textbf{Enhanced Analysis:} Facilitates high-level insights (e.g., UTXO counts and transaction frequencies) by focusing on entity behavior.
-    %         \item \textbf{Unified Representation:} Maintains the natural mapping of Blockchain interactions in a concise, algebraic structure.
-    %     \end{itemize}
-    % \end{block}
 \end{frame}
 
 \section{Results}

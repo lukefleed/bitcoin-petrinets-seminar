@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.19)  19 FEB 2025 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.19)  25 FEB 2025 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,7 +827,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
 ] [11
 
 ]
-<ReteEsempio_1pt.pdf, id=619, 546.3612pt x 299.19778pt>
+<ReteEsempio_1pt.pdf, id=618, 546.3612pt x 299.19778pt>
 File: ReteEsempio_1pt.pdf Graphic file (type pdf)
 <use ReteEsempio_1pt.pdf>
 Package pdftex.def Info: ReteEsempio_1pt.pdf  used on input line 278.
@@ -863,7 +863,7 @@ Overfull \vbox (12.70326pt too high) detected at line 410
 <diagram.pdf, id=916, 1057.9525pt x 398.48875pt>
 File: diagram.pdf Graphic file (type pdf)
 <use diagram.pdf>
-Package pdftex.def Info: diagram.pdf  used on input line 451.
+Package pdftex.def Info: diagram.pdf  used on input line 443.
 (pdftex.def)             Requested size: 342.2953pt x 128.92966pt.
  [20
 
@@ -871,12 +871,12 @@ Package pdftex.def Info: diagram.pdf  used on input line 451.
 <PreA.pdf, id=956, 713.66624pt x 551.05875pt>
 File: PreA.pdf Graphic file (type pdf)
 <use PreA.pdf>
-Package pdftex.def Info: PreA.pdf  used on input line 480.
+Package pdftex.def Info: PreA.pdf  used on input line 472.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
 <PostA.pdf, id=957, 713.66624pt x 551.05875pt>
 File: PostA.pdf Graphic file (type pdf)
 <use PostA.pdf>
-Package pdftex.def Info: PostA.pdf  used on input line 480.
+Package pdftex.def Info: PostA.pdf  used on input line 472.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
  [21
 
@@ -889,7 +889,7 @@ pdfTeX warning: pdflatex (file ./PostA.pdf): PDF inclusion: multiple pdfs with p
 <Chains.pdf, id=1068, 713.66624pt x 551.05875pt>
 File: Chains.pdf Graphic file (type pdf)
 <use Chains.pdf>
-Package pdftex.def Info: Chains.pdf  used on input line 528.
+Package pdftex.def Info: Chains.pdf  used on input line 520.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [23
 
@@ -897,7 +897,7 @@ Package pdftex.def Info: Chains.pdf  used on input line 528.
 <groupTA.pdf, id=1105, 713.66624pt x 551.05875pt>
 File: groupTA.pdf Graphic file (type pdf)
 <use groupTA.pdf>
-Package pdftex.def Info: groupTA.pdf  used on input line 543.
+Package pdftex.def Info: groupTA.pdf  used on input line 535.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [24
 
@@ -905,10 +905,10 @@ Package pdftex.def Info: groupTA.pdf  used on input line 543.
 <Entity_size.pdf, id=1141, 713.66624pt x 551.05875pt>
 File: Entity_size.pdf Graphic file (type pdf)
 <use Entity_size.pdf>
-Package pdftex.def Info: Entity_size.pdf  used on input line 561.
+Package pdftex.def Info: Entity_size.pdf  used on input line 553.
 (pdftex.def)             Requested size: 205.37926pt x 158.58371pt.
 
-Overfull \vbox (31.93791pt too high) detected at line 561
+Overfull \vbox (31.93791pt too high) detected at line 553
  []
 
 [25
@@ -917,12 +917,12 @@ Overfull \vbox (31.93791pt too high) detected at line 561
 <PreE.pdf, id=1179, 713.66624pt x 551.05875pt>
 File: PreE.pdf Graphic file (type pdf)
 <use PreE.pdf>
-Package pdftex.def Info: PreE.pdf  used on input line 583.
+Package pdftex.def Info: PreE.pdf  used on input line 575.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
 <PostE.pdf, id=1180, 713.66624pt x 551.05875pt>
 File: PostE.pdf Graphic file (type pdf)
 <use PostE.pdf>
-Package pdftex.def Info: PostE.pdf  used on input line 583.
+Package pdftex.def Info: PostE.pdf  used on input line 575.
 (pdftex.def)             Requested size: 146.32976pt x 112.98459pt.
  [26
 
@@ -935,7 +935,7 @@ pdfTeX warning: pdflatex (file ./PostE.pdf): PDF inclusion: multiple pdfs with p
 <groupTE.pdf, id=1263, 713.66624pt x 551.05875pt>
 File: groupTE.pdf Graphic file (type pdf)
 <use groupTE.pdf>
-Package pdftex.def Info: groupTE.pdf  used on input line 622.
+Package pdftex.def Info: groupTE.pdf  used on input line 614.
 (pdftex.def)             Requested size: 171.14764pt x 132.14748pt.
  [28
 
@@ -957,18 +957,18 @@ Package pdftex.def Info: groupTE.pdf  used on input line 622.
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FFBDB46E1D56196388397881A2103874;2092.
+(rerunfilecheck)             Checksum: 54882399E62641FFFF9B3D727734B7FD;2077.
  ) 
 Here is how much of TeX's memory you used:
- 26317 strings out of 478287
- 531369 string characters out of 5849289
- 775623 words of memory out of 5000000
- 43878 multiletter control sequences out of 15000+600000
+ 26318 strings out of 478287
+ 531367 string characters out of 5849289
+ 775492 words of memory out of 5000000
+ 43879 multiletter control sequences out of 15000+600000
  484834 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,469b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (31 pages, 716275 bytes).
+Output written on main.pdf (31 pages, 716362 bytes).
 PDF statistics:
  1616 PDF objects out of 1728 (max. 8388607)
  1241 compressed objects within 13 object streams
