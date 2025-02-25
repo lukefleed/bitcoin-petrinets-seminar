@@ -334,7 +334,7 @@
 \end{frame}
 
 
-\section{Entities Petri Net and algorithm to manage them}
+\section{Entities Petri Net}
 
 \begin{frame}{Entities Petri Net: Introduction}
     \footnotesize
@@ -378,6 +378,7 @@
     % Recall: For each transaction \(t\), the non-zero entries in column \(\mathbf{PreA}(\cdot,t)\) indicate input addresses.
 \end{frame}
 
+\subsection{Computing the Entities}
 \begin{frame}[fragile]{}
     \footnotesize
     \begin{algorithm}[H]
@@ -426,6 +427,57 @@
         \end{itemize}
     \end{block}
 \end{frame}
+
+
+\begin{frame}{Entities Petri Net: Example}
+    \footnotesize
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline
+            Entity in $E$ & Places                                \\ \hline
+            $e_1$         & $\{p\alpha_1\}$                       \\
+            $e_2$         & $\{p\alpha_2, p\alpha_3, p\alpha_6\}$ \\
+            $e_3$         & $\{p\alpha_4\}$                       \\
+            $e_4$         & $\{p\alpha_5\}$                       \\
+            \hline
+        \end{tabular}
+        \vspace{-0.2cm}
+    \end{center}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\linewidth]{reteEsemopio_EPT}
+        \caption{The Entities Petri Net of the simplified transaction chains}
+        \label{fig:reteesemopioept}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{PreE and PostE Matrix Example}
+    \begin{figure}
+        \centering{
+            \textbf{PreE}=$\begin{bmatrix}
+                    0 \  & 0 \  & 1 \  & 0 \  & 0 \  & 0 \  & 0 \\
+                    0 \  & 0 \  & 0 \  & 0 \  & 2 \  & 0 \  & 2 \\
+                    0 \  & 0 \  & 0 \  & 0 \  & 0 \  & 0 \  & 0 \\
+                    0 \  & 0 \  & 0 \  & 0 \  & 0 \  & 0 \  & 0
+                \end{bmatrix}$
+            $\begin{array}{c} p\epsilon_1 \\p\epsilon_2 \\p\epsilon_3 \\p\epsilon_4 \end{array}
+            $\\$\begin{array}{cccccccc}\ \ & t_1 & t_2 & t_3 & t_4 & t_5 & t_6 & t_7 \end{array}$}
+        \vspace{.2cm}
+    \end{figure}
+    \begin{figure}
+        \centering{
+            \textbf{PostE}=$\begin{bmatrix}
+                    1 \  & 1 \  & 0 \  & 0 \  & 0 \  & 0 \  & 0 \\
+                    0 \  & 0 \  & 2 \  & 1 \  & 1 \  & 1 \  & 0 \\
+                    0 \  & 0 \  & 1 \  & 0 \  & 0 \  & 0 \  & 0 \\
+                    0 \  & 0 \  & 0 \  & 0 \  & 1 \  & 0 \  & 1
+                \end{bmatrix}$
+            $\begin{array}{c} p\epsilon_1 \\p\epsilon_2 \\p\epsilon_3 \\p\epsilon_4 \end{array}
+            $\\ $\begin{array}{cccccccc}\ \ & t_1 & t_2 & t_3 & t_4 & t_5 & t_6 & t_7 \end{array}$}
+        \vspace{.2cm}
+    \end{figure}
+\end{frame}
+
 
 \section{Results}
 
